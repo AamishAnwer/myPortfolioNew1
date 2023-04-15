@@ -40,9 +40,9 @@ export default function App() {
     const typed = new Typed(el.current, {
       strings: [
         "Enthusiastic Dev 😎",
-        "FrontEnd Developer",
-        "Full Stack Web Developer",
-        "MERN Stack Developer"
+        "FrontEnd Developer 🧑‍💻",
+        "Full Stack Web Developer 💻",
+        "MERN Stack Developer 💻",
       ],
       startDelay: 0,
       typeSpeed: 80,
@@ -52,7 +52,7 @@ export default function App() {
       loop: true,
       showCursor: true,
       autoInsertCss: true,
-      cursorChar: "|"
+      cursorChar: "|",
     });
     return () => {
       typed.destroy();
@@ -81,7 +81,7 @@ export default function App() {
       <div className="navbar-option-mobile bg-new">
         <div className="d-flex flex-row justify-content-between">
           <span className="brand-name d-flex align-items-center justify-content-center">
-            Jason Broody
+            Aamish
           </span>
           <div className="bars mx-2" onClick={() => setopennav(!opennav)}></div>
         </div>
@@ -93,7 +93,7 @@ export default function App() {
             : "d-flex  flex-rows bg-new px-9 py-2 navbar-fixed-new transition-all"
         }
       >
-        <span className="brand-name">Mohamed Anwer</span>
+        <span className="brand-name">Mohammed Aamish Anwer</span>
         <div className="d-flex flex-rows">
           <a
             href="#home"
@@ -195,11 +195,10 @@ export default function App() {
             {/* now making 2 divs 1 for animation and 1 for text all */}
             <div className="col-lg-6 col-md-6 col-sm-12 d-flex align-items-center justify-content-center">
               <lottie-player
-                className="lottie-1"
-                src="https://assets10.lottiefiles.com/packages/lf20_v1yudlrx.json"
+                src="https://assets5.lottiefiles.com/private_files/lf30_xeb8piyr.json"
                 background="transparent"
                 speed="1"
-                // style={{ width: "500px", height: "500px" }}
+                style={{ width: "300px" }}
                 loop
                 autoplay
               ></lottie-player>
@@ -217,10 +216,10 @@ export default function App() {
                 <span className="few-list">
                   <ul className="py-3">
                     <li>Full Stack Web Development</li>
+                    <li>Html, Css, Bootstrap, javaScript & ReactJs</li>
                     <li>Interactive Front end as per the design</li>
                     <li>Node JS, Express, MongoDB (Backend Technologies)</li>
-                    <li>Android studio, React Native and flutter</li>
-                    <li>Docker, Kubernates, AWS</li>
+                    <li>Firebase, Netlify, Render, AWS</li>
                   </ul>
                 </span>
               </span>
@@ -248,29 +247,30 @@ export default function App() {
             <div className="d-flex flex-column bg-new text-white">
               {/* took flex-column for font icon icon's(4 icon and 4 text) and for texts */}
               <span className="icons-span">
-                <i class="fa-solid fa-user-graduate"></i>
+                <i class="fa-solid fa-list-check"></i>
               </span>
               <span className="icons-span">
                 <i class="fa-solid fa-briefcase"></i>
               </span>
               <span className="icons-span">
-                <i class="fa-solid fa-code"></i>
+                <i class="fa-solid fa-user-graduate"></i>
               </span>
+
               <span className="icons-span">
-                <i class="fa-solid fa-list-check"></i>
+                <i class="fa-solid fa-code"></i>
               </span>
             </div>
             {/* now doing for 4 texts */}
             <div className="d-flex flex-column">
               <span
                 className={
-                  education === false
+                  projects === false
                     ? "resume-options-items"
                     : "selected resume-options-items"
                 }
-                onClick={() => ChangeState(seteducation, true)}
+                onClick={() => ChangeState(setprojects, true)}
               >
-                Education
+                Projects
               </span>
               <span
                 className={
@@ -284,6 +284,17 @@ export default function App() {
               </span>
               <span
                 className={
+                  education === false
+                    ? "resume-options-items"
+                    : "selected resume-options-items"
+                }
+                onClick={() => ChangeState(seteducation, true)}
+              >
+                Education
+              </span>
+
+              <span
+                className={
                   programming === false
                     ? "resume-options-items"
                     : "selected resume-options-items"
@@ -291,16 +302,6 @@ export default function App() {
                 onClick={() => ChangeState(setprogramming, true)}
               >
                 Programming
-              </span>
-              <span
-                className={
-                  projects === false
-                    ? "resume-options-items"
-                    : "selected resume-options-items"
-                }
-                onClick={() => ChangeState(setprojects, true)}
-              >
-                Projects
               </span>
             </div>
           </div>
@@ -332,7 +333,7 @@ export default function App() {
       <div className="contact-me-part" id="contactme">
         <div className="relative-bg"> </div>
         <div className="contact-inner-part d-flex flex-column">
-          <span className="about-me-text">Contact Mee</span>
+          <span className="about-me-text">Contact Me</span>
           <span className="why-text-sub mb-5">Lets Keep in Touch</span>
           <Contact />
         </div>

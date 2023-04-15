@@ -9,3 +9,25 @@
   font-family: "Ubuntu";
   font-weight: 700;
 }
+
+.btn-testm {
+  font-size: 0.8rem;
+  font-family: Ubuntu;
+  color: #02203c;
+  background: transparent;
+  border-radius: 25px;
+  margin-inline: 12px;
+  padding: 5px 40px;
+  border: 2px solid rebeccapurple;
+  transition: all 0.3s ease-in-out;
+  animation: Anim 1s ease-in-out infinite;
+  font-weight: 600;
+
+}
+
+.btn-testm:hover {
+  transform: translateY(-5px);
+  background-color: #02203c;;
+  color: #fff;
+  font-weight: 600;
+}

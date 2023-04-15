@@ -83,6 +83,7 @@ a {
 
 /* buttons */
 
+
 .btn-hire-me {
   font-size: 1.3rem;
   font-family: Ubuntu;
@@ -289,6 +290,14 @@ a {
 
 /* -------------------------------------Mobile view styling --------------------------------- */
 
+@media all and (max-width: 1137px) { 
+  /* your content here */
+
+  .card-contact-right { 
+    width: 90%;
+  }
+}
+
 @media all and (max-width: 786px) {
   /* your content here */
   .navbar-option-mobile {
@@ -419,36 +428,67 @@ a {
   }
   .responform {
     margin-left: 25px !important;
-  }
-}
-/* @media all and (max-width: 1113px) {
-  .card-contact-right {
-    width: 85%; */
-/* margin-block: auto; */
-/* justify-content: center; */
-/* }
-  .input-group {
-    justify-content: center;
-  }
-} */
+  }}
 
-/* @media all and (max-width: 1168px) {
-  .card-contact-right {
-    width: 55%;
-  }
-} */
+  @media all and (max-width: 414px) { 
+    /* your content here */
 
-/* @media all and (max-width: 400px) {
-  .card-contact-right {
-    width: 100%;
+    .card-contact-right { 
+      width: 100%;
+      padding-right: 54px;
+      
+      
+    }
+    .responform {
+      height: 500px;
+      width: 270px;
+     
+    }
+    .inputrespon {
+      height: 44px;
+      width: 180px;
+    }
+    .msgresponse {
+      width: 180px;
+    }
+   
   }
-} */
+  /* @media all and (max-width: 894px) {
+    
+  } */
+  @media only screen and (max-width: 894px) and (min-width: 768px)  {
+    .card-contact-right {
+      width: 100%;
+    }
+    .aamish {
+      margin-left: 0px !important;
+    }
+    /* .inputrespon{
+      height: 40px;
+      width: 170px;
+      
+     } */
+     /* .card-contact-right {
+      width: 100px;
+     } */
+     /* .msgresponse {
+      width: 170px;
+     } */
+  }
 
-@media only screen and (max-width: 400px) and (min-width: 300px) {
-  .card-contact-right {
-    width: 95%;
-  }
-  .responform {
-    margin-right: 55px !important;
-  }
-}
+  @media only screen and (max-width: 809px) and (min-width: 768px)  {
+    .card-contact-right {
+      width: 110%;
+    }}
+
+    @media only screen and (max-width: 420px) and (min-width: 300px) {
+  
+      .responform {
+        
+        margin-left: 0px !important;
+    
+      }
+      .card-contact-right {
+        margin-left: 20px;
+   }
+    }

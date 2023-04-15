@@ -33,7 +33,7 @@ function Contact() {
     const templateparams = {
       from_name: name + " " + email,
       to_name: "anwer.aamish@gmail.com",
-      feedback: message
+      feedback: message,
     };
     emailjs
       .send(
@@ -63,12 +63,14 @@ function Contact() {
                 background="transparent"
                 speed="1"
                 style={{ width: "300px" }}
-                loop
+                loop 
                 autoplay
               ></lottie-player>
+              <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+              
             </div>
           </div>
-          <div className="col-lg-6 col-md-5 col-sm-12 my-auto responform">
+          <div className="col-lg-6 col-md-5 col-sm-12 responform aamish">
             <form
               ref={form}
               className="d-flex flex-column card-contact-right"
@@ -83,7 +85,7 @@ function Contact() {
                   }}
                   type="text"
                   placeholder="Enter Your Name"
-                  className="input-groups"
+                  className="input-groups inputrespon"
                 />
               </div>
               <div className="input-group my-3 d-flex flex-column">
@@ -95,7 +97,7 @@ function Contact() {
                   }}
                   type="text"
                   placeholder="Enter Your Email"
-                  className="input-groups"
+                  className="input-groups inputrespon"
                 />
               </div>
               <div className="input-group my-3 d-flex flex-column">
@@ -107,7 +109,7 @@ function Contact() {
                   }}
                   type="text"
                   placeholder="Enter Your Message"
-                  className="input-groups"
+                  className="input-groups msgresponse"
                 />
               </div>
               <div className="input-group my-3 d-flex flex-column">

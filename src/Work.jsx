@@ -15,17 +15,11 @@ function Work() {
           <span className="position">Associate Consultant</span>
           <span className="description-position">
             <ul>
+              <li>Done 3 Certification while I was in the company.</li>
+              <li>Created web pages and custom buttons using LWC.</li>
               <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit ame
-                cosndlfesting.
-              </li>
-              <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit ame
-                cosndlfesting.
-              </li>
-              <li>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit ame
-                cosndlfesting.
+                Tested functionality, performed debugging and carried out
+                modifications to conduct.
               </li>
             </ul>
           </span>
