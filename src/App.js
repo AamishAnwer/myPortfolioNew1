@@ -10,10 +10,10 @@ import Typed from "typed.js";
 
 export default function App() {
   // for useState
-  const [education, seteducation] = useState(true);
+  const [education, seteducation] = useState(false);
   const [workhistory, setworkhistory] = useState(false);
   const [programming, setprogramming] = useState(false);
-  const [projects, setprojects] = useState(false);
+  const [projects, setprojects] = useState(true);
   const [opennav, setopennav] = useState(false);
 
   useEffect(() => {
