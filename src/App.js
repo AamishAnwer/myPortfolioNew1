@@ -157,17 +157,18 @@ export default function App() {
                   Hire Me
                 </a>
                 <a
-                  href="https://res.cloudinary.com/dcpte972l/image/upload/v1681117636/Mohammed_Aamish_Anwer_Resume_mjkpiy.pdf"
+                  href="https://res.cloudinary.com/dcpte972l/image/upload/v1681641011/Mohammed_Aamish_Anwer_Resume_q2vek0.pdf"
                   className="btn-get-resume"
                   target="_blank"
                 >
-                  Get Resume
+                  Get Resume <i class="fa-solid fa-up-right-from-square"> </i>
                 </a>
               </div>
             </div>
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12">
             {/* for Image part */}
+          
             <div className="d-flex justify-content-center ">
               <img
                 className="img-fluid custom-img"
