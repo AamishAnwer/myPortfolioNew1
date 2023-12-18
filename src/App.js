@@ -157,7 +157,7 @@ export default function App() {
                   Hire Me
                 </a>
                 <a
-                  href="https://res.cloudinary.com/dcpte972l/image/upload/v1681641011/Mohammed_Aamish_Anwer_Resume_q2vek0.pdf"
+                  href="https://res.cloudinary.com/dcpte972l/image/upload/v1702886268/Mohammed_Aamish_Anwer_Resume_n7jwrq.pdf"
                   className="btn-get-resume"
                   target="_blank"
                 >
@@ -165,10 +165,11 @@ export default function App() {
                 </a>
               </div>
             </div>
+            <img src="" alt="" />
           </div>
           <div className="col-lg-6 col-md-6 col-sm-12">
             {/* for Image part */}
-          
+
             <div className="d-flex justify-content-center ">
               <img
                 className="img-fluid custom-img"
@@ -207,10 +208,9 @@ export default function App() {
 
             <div className="col-lg-6 col-md-6 col-sm-12 py-5 d-flex flex-column">
               <span className="some-text-about-me">
-                Full Stack Web Developer with good knowledge of front end
-                technologies like Reactjs and background knowledge in MERN
-                stack.Looking forward to be an important asset for an
-                organization.
+                Experienced Full Stack Web Developer proficient in Reactjs and
+                MERN stack. Seeking to enhance organizational growth through
+                application of skills and expertise.
               </span>
               <span className="few-highlights">
                 <span className="few-text">Here are few Highlights</span>
