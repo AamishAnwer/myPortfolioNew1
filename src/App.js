@@ -157,7 +157,7 @@ export default function App() {
                   Hire Me
                 </a>
                 <a
-                  href="https://res.cloudinary.com/dcpte972l/image/upload/v1702886268/Mohammed_Aamish_Anwer_Resume_n7jwrq.pdf"
+                  href="https://res.cloudinary.com/dcpte972l/image/upload/v1702890484/Mohammed_Aamish_Anwer_Resume_z3yv92.pdf"
                   className="btn-get-resume"
                   target="_blank"
                 >
