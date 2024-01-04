@@ -83,7 +83,6 @@ a {
 
 /* buttons */
 
-
 .btn-hire-me {
   font-size: 1.3rem;
   font-family: Ubuntu;
@@ -106,12 +105,12 @@ a {
 .btn-get-resume {
   font-size: 1.3rem;
   font-family: Ubuntu;
-  color: #fff;
-  background: red;
+  color: #000000;
+  background: #fff;
   border-radius: 25px;
   margin-inline: 12px;
   padding: 5px 40px;
-  border: 2px solid white;
+  border: 2px solid black;
   transition: all 0.3s ease-in-out;
 }
 
@@ -290,10 +289,10 @@ a {
 
 /* -------------------------------------Mobile view styling --------------------------------- */
 
-@media all and (max-width: 1137px) { 
+@media all and (max-width: 1137px) {
   /* your content here */
 
-  .card-contact-right { 
+  .card-contact-right {
     width: 90%;
   }
 }
@@ -428,67 +427,62 @@ a {
   }
   .responform {
     margin-left: 25px !important;
-  }}
-
-  @media all and (max-width: 414px) { 
-    /* your content here */
-
-    .card-contact-right { 
-      width: 100%;
-      padding-right: 54px;
-      
-      
-    }
-    .responform {
-      height: 500px;
-      width: 270px;
-     
-    }
-    .inputrespon {
-      height: 44px;
-      width: 180px;
-    }
-    .msgresponse {
-      width: 180px;
-    }
-   
   }
-  /* @media all and (max-width: 894px) {
+}
+
+@media all and (max-width: 414px) {
+  /* your content here */
+
+  .card-contact-right {
+    width: 100%;
+    padding-right: 54px;
+  }
+  .responform {
+    height: 500px;
+    width: 270px;
+  }
+  .inputrespon {
+    height: 44px;
+    width: 180px;
+  }
+  .msgresponse {
+    width: 180px;
+  }
+}
+/* @media all and (max-width: 894px) {
     
   } */
-  @media only screen and (max-width: 894px) and (min-width: 768px)  {
-    .card-contact-right {
-      width: 100%;
-    }
-    .aamish {
-      margin-left: 0px !important;
-    }
-    /* .inputrespon{
+@media only screen and (max-width: 894px) and (min-width: 768px) {
+  .card-contact-right {
+    width: 100%;
+  }
+  .aamish {
+    margin-left: 0px !important;
+  }
+  /* .inputrespon{
       height: 40px;
       width: 170px;
       
      } */
-     /* .card-contact-right {
+  /* .card-contact-right {
       width: 100px;
      } */
-     /* .msgresponse {
+  /* .msgresponse {
       width: 170px;
      } */
+}
+
+@media only screen and (max-width: 809px) and (min-width: 768px) {
+  .card-contact-right {
+    width: 110%;
   }
+}
 
-  @media only screen and (max-width: 809px) and (min-width: 768px)  {
-    .card-contact-right {
-      width: 110%;
-    }}
-
-    @media only screen and (max-width: 420px) and (min-width: 300px) {
-  
-      .responform {
-        
-        margin-left: 0px !important;
-    
-      }
-      .card-contact-right {
-        margin-left: 20px;
-   }
-    }
+@media only screen and (max-width: 420px) and (min-width: 300px) {
+  .responform {
+    margin-left: 0px !important;
+  }
+  .card-contact-right {
+    margin-left: 20px;
+  }
+}
