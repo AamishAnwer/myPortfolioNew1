@@ -7,6 +7,7 @@ import "./styles.css";
 import Testimonials from "./Testimonials";
 import Work from "./Work";
 import Typed from "typed.js";
+import Previous from "./Previous";
 
 export default function App() {
   // for useState
@@ -157,12 +158,16 @@ export default function App() {
                   Hire Me
                 </a>
                 <a
-                  href="https://res.cloudinary.com/dcpte972l/image/upload/v1704966408/Mohammed_Aamish_Anwer_Resume_hx8qbm.pdf"
+                  href="https://res.cloudinary.com/dcpte972l/image/upload/v1707131740/Mohammed_Aamish_Anwer_Resume_au5n2t.pdf"
                   className="btn-get-resume"
                   target="_blank"
                 >
                   Get Resume <i class="fa-solid fa-up-right-from-square"> </i>
                 </a>
+                <span className=" text-pink-800 font-bold text-3xl  ">
+                  {" "}
+                  Hello aamish
+                </span>
               </div>
             </div>
             <img src="" alt="" />
@@ -182,6 +187,9 @@ export default function App() {
         <br />
         <br />
       </div>
+
+      {/* previous section */}
+      <Previous />
 
       {/* About me section */}
 
