@@ -7,7 +7,6 @@ import "./styles.css";
 import Testimonials from "./Testimonials";
 import Work from "./Work";
 import Typed from "typed.js";
-import Previous from "./Previous";
 
 export default function App() {
   // for useState
@@ -187,9 +186,6 @@ export default function App() {
         <br />
         <br />
       </div>
-
-      {/* previous section */}
-      <Previous />
 
       {/* About me section */}
 
