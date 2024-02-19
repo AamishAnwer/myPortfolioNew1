@@ -163,10 +163,6 @@ export default function App() {
                 >
                   Get Resume <i class="fa-solid fa-up-right-from-square"> </i>
                 </a>
-                <span className=" text-pink-800 font-bold text-3xl  ">
-                  {" "}
-                  Hello aamish
-                </span>
               </div>
             </div>
             <img src="" alt="" />
